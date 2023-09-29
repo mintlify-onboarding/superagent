@@ -4,9 +4,9 @@
     "baseUrl": "https://api.beta.superagent.sh", 
     "auth": {
       "method": "bearer"
-    },
-    "openapi": "https://api.beta.superagent.sh/openapi.json"
+    }
   },
+  "openapi": "https://api.beta.superagent.sh/openapi.json",
   "name": "Superagent",
   "logo": {
     "dark": "/logo/logo.png",
