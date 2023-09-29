@@ -12,10 +12,6 @@
     "dark": "#e3b918",
     "background": {
       "dark": "#000"
-    },
-    "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
     }
   },
   "topbarLinks": [
