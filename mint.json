@@ -1,15 +1,5 @@
 {
   "$schema": "https://api.beta.superagent.sh/openapi.json",
-  "api": {
-    "baseUrl": "https://api.beta.superagent.sh", 
-    "auth": {
-      "method": "bearer"
-    },
-    "playground": {
-      "mode": "simple"
-    }
-  },
-  "openapi": "/openapi.yml",
   "name": "Superagent",
   "logo": {
     "dark": "/logo/logo.png",
@@ -147,5 +137,15 @@
     "discord": "https://discord.gg/mhmJUTjW4b",
     "twitter": "https://twitter.com/pelaseyed",
     "linkedin": "https://www.linkedin.com/company/superagent-sh"
-  }
+  },
+  "api": {
+    "baseUrl": "https://api.beta.superagent.sh", 
+    "auth": {
+      "method": "bearer"
+    },
+    "playground": {
+      "mode": "show"
+    }
+  },
+  "openapi": "https://api.beta.superagent.sh/openapi.json"
 }
