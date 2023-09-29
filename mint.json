@@ -1,17 +1,17 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "$schema": "https://api.beta.superagent.sh/openapi.json",
+  "name": "Superagent",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/logo.png",
+    "light": "/logo/logo.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
+    "primary": "#e3b918",
+    "light": "#e3b918",
+    "dark": "#e3b918",
     "background": {
-      "dark": "#090014"
+      "dark": "#000"
     },
     "anchors": {
       "from": "#FF7F57",
@@ -21,12 +21,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://discord.gg/mhmJUTjW4b"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://beta.superagent.sh"
   },
   "tabs": [
     {
@@ -38,17 +38,17 @@
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.superagent.sh"
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/mhmJUTjW4b"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/homanp/superagent"
     }
   ],
   "navigation": [
@@ -65,18 +65,90 @@
       "pages": ["api-reference/authentication"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "ApiUser",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/api-user/create",
+        "api-reference/api-user/get",
+        "api-reference/api-user/delete"
+      ]
+    },
+    {
+      "group": "LLM",
+      "pages": [
+        "api-reference/llm/list",
+        "api-reference/llm/create",
+        "api-reference/llm/get",
+        "api-reference/llm/update"
+      ]
+    },
+    {
+      "group": "LLM",
+      "pages": [
+        "api-reference/llm/list",
+        "api-reference/llm/create",
+        "api-reference/llm/get",
+        "api-reference/llm/update"
+      ]
+    },
+    {
+      "group": "Datasource",
+      "pages": [
+        "api-reference/datasource/list",
+        "api-reference/datasource/create",
+        "api-reference/datasource/get",
+        "api-reference/datasource/update",
+        "api-reference/datasource/delete"
+      ]
+    },
+    {
+      "group": "Tool",
+      "pages": [
+        "api-reference/tool/list",
+        "api-reference/tool/create",
+        "api-reference/tool/get",
+        "api-reference/tool/update",
+        "api-reference/tool/delete"
+      ]
+    },
+    {
+      "group": "Agent",
+      "pages": [
+        "api-reference/agent/invoke",
+        "api-reference/agent/list",
+        "api-reference/agent/create",
+        "api-reference/agent/get",
+        "api-reference/agent/update",
+        "api-reference/agent/delete",
+        "api-reference/agent/add-llm",
+        "api-reference/agent/remove-llm",
+        "api-reference/agent/add-datasource",
+        "api-reference/agent/list-datasource",
+        "api-reference/agent/remove-datasources",
+        "api-reference/agent/add-tool",
+        "api-reference/agent/list-tools",
+        "api-reference/agent/remove-tool",
+        "api-reference/agent/list-runs"
+      ]
+    },
+    {
+      "group": "Workflow",
+      "pages": [
+        "api-reference/workflow/invoke",
+        "api-reference/workflow/list",
+        "api-reference/workflow/create",
+        "api-reference/workflow/get",
+        "api-reference/workflow/update",
+        "api-reference/workflow/delete",
+        "api-reference/workflow/add-step",
+        "api-reference/workflow/delete-step",
+        "api-reference/worflow/list-steps"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/homanp/superagent",
+    "discord": "https://discord.gg/mhmJUTjW4b",
+    "twitter": "https://twitter.com/pelaseyed",
+    "linkedin": "https://www.linkedin.com/company/superagent-sh"
   }
 }
