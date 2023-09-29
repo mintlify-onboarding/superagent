@@ -1,5 +1,12 @@
 {
   "$schema": "https://api.beta.superagent.sh/openapi.json",
+  "api": {
+    "baseUrl": "https://api.beta.superagent.sh", 
+    "auth": {
+      "method": "bearer"
+    },
+    "openapi": "https://api.beta.superagent.sh/openapi.json"
+  },
   "name": "Superagent",
   "logo": {
     "dark": "/logo/logo.png",
@@ -66,15 +73,6 @@
         "api-reference/api-user/create",
         "api-reference/api-user/get",
         "api-reference/api-user/delete"
-      ]
-    },
-    {
-      "group": "LLM",
-      "pages": [
-        "api-reference/llm/list",
-        "api-reference/llm/create",
-        "api-reference/llm/get",
-        "api-reference/llm/update"
       ]
     },
     {
